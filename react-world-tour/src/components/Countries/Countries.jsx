@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import Country from "../Country/Country";
-import './Countries.css'
+import "./Countries.css";
 
 const Countries = () => {
-
   const [countries, setCountries] = useState([]);
-  const [visitedCountries, setVisitedCountries] = useState([])
+  const [visitedCountries, setVisitedCountries] = useState([]);
 
   useEffect(() => {
     fetch(`https://restcountries.com/v3.1/all`)
@@ -13,17 +12,16 @@ const Countries = () => {
       .then((data) => setCountries(data));
   }, []);
 
-  const handleVisitedCountry = country =>{
-    console.log('Add this to your visited country');
-    console.log(country);
-  }
-
+  const handleVisitedCountry = (country) => {
+    const newVisitedCountries = [...visitedCountries, country];
+    setVisitedCountries(newVisitedCountries);
+  };
 
   return (
     <div>
       <h1>Countries: {countries.length}</h1>
       <div>
-        <h5>Visited countries</h5>
+        <h5>Visited countries: {visitedCountries.length}</h5>
         <ul></ul>
       </div>
       <div className="country-container">
