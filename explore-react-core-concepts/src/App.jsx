@@ -1,20 +1,17 @@
 import "./App.css";
+import Todo from "./Todo";
 
 function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Person></Person>
+      <Todo task="Learn React" isDone={true}></Todo>
+      <Todo task="Learn JS" isDone={false}></Todo>
+      <Todo task="Learn Next JS" isDone={false}></Todo>
     </>
   );
 }
 
-function Person() {
-  return (
-    <>
-      <h1>I am person</h1>
-    </>
-  );
-}
+
 
 export default App;
