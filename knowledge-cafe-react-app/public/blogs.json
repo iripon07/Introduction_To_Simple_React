@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover": "https://i.ibb.co/B3Dg3mM/3.jpg",
+    "cover": "https://s3-us-west-2.amazonaws.com/artifactuprising/magento/blog/articles/2016-04-18-10-book-covers-youll-love/2016-04-18-10-book-titles-03.jpg",
     "title": "The Journey Beyond",
     "author": "John Doe",
     "author_img": "https://i.ibb.co/55Pyh4F/12.jpg",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "cover": "https://example.com/cover5.jpg",
+    "cover": "https://s3-us-west-2.amazonaws.com/artifactuprising/magento/blog/articles/2016-04-18-10-book-covers-youll-love/2016-04-18-10-book-titles-03.jpg",
     "title": "The Art of Productivity",
     "author": "Emily White",
     "author_img": "https://example.com/author5.jpg",
