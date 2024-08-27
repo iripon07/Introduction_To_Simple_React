@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "cover": "https://s3-us-west-2.amazonaws.com/artifactuprising/magento/blog/articles/2016-04-18-10-book-covers-youll-love/2016-04-18-10-book-titles-03.jpg",
+    "cover": "https://i.ibb.co/2KPhFxK/1.jpg",
     "title": "The Journey Beyond",
     "author": "John Doe",
-    "author_img": "https://i.ibb.co/55Pyh4F/12.jpg",
+    "author_img": "https://i.ibb.co/QQQJCCT/profile.png",
     "hashtag": ["#adventure", "#fantasy", "#journey"],
     "posted_date": "2024-08-20",
     "reading_time": 5
   },
   {
     "id": 2,
-    "cover": "https://example.com/cover2.jpg",
+    "cover": "https://i.ibb.co/ZGqkQxN/2.png",
     "title": "Mindful Living",
     "author": "Jane Smith",
-    "author_img": "https://example.com/author2.jpg",
+    "author_img": "https://i.ibb.co/HNZB7yw/girl1.jpg",
     "hashtag": ["#wellness", "#mindfulness", "#lifestyle"],
     "posted_date": "2024-07-15",
     "reading_time": 8
   },
   {
     "id": 3,
-    "cover": "https://i.ibb.co/vznVLph/1.jpg",
+    "cover": "https://i.ibb.co/4M4Q9Vp/4.jpg",
     "title": "Tech Revolution",
     "author": "Alice Johnson",
-    "author_img": "https://example.com/author3.jpg",
+    "author_img": "https://i.ibb.co/dBSXC1W/boy2.jpg",
     "hashtag": ["#technology", "#innovation", "#future"],
     "posted_date": "2024-06-30",
     "reading_time": 10
   },
   {
     "id": 4,
-    "cover": "https://i.ibb.co/Q8H20Jq/4.jpg",
+    "cover": "https://i.ibb.co/X5WB2tQ/3.png",
     "title": "Culinary Secrets",
     "author": "Robert Brown",
     "author_img": "https://example.com/author4.jpg",
@@ -41,10 +41,10 @@
   },
   {
     "id": 5,
-    "cover": "https://s3-us-west-2.amazonaws.com/artifactuprising/magento/blog/articles/2016-04-18-10-book-covers-youll-love/2016-04-18-10-book-titles-03.jpg",
+    "cover": "https://i.ibb.co/X5WB2tQ/3.png",
     "title": "The Art of Productivity",
     "author": "Emily White",
-    "author_img": "https://example.com/author5.jpg",
+    "author_img": "https://i.ibb.co/WWM5KJs/boy1.png",
     "hashtag": ["#productivity", "#work", "#success"],
     "posted_date": "2024-04-10",
     "reading_time": 7
