@@ -5,17 +5,22 @@ import Bookmarks from "./components/Bookmarks/Bookmarks";
 import Header from "./components/Header/Header";
 
 function App() {
-  const [bookmark, setBookmarks] = useState([])
+  const [bookmarks, setBookmarks] = useState([]);
 
-  const handleAddToBookmark = (blog) =>{
-    console.log(`Add book mark`);
-  }
+  const handleAddToBookmark = (blog) => {
+    const existingBookmark = bookmarks.find(
+      (bookmark) => bookmark.id === blog.id
+    );
+    if (!existingBookmark) {
+      setBookmarks([...bookmarks, blog]);
+    }
+  };
   return (
     <div className="max-w-screen-xl	 mx-auto">
       <Header></Header>
-      <div className="md:flex">
+      <div className="md:flex mt-8">
         <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     </div>
   );
